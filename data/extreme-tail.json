@@ -1,0 +1,34 @@
+{
+  "studies": [
+    {
+      "id": "extreme",
+      "effect": 8,
+      "se": 0.1
+    },
+    {
+      "id": "wide",
+      "effect": -0.2,
+      "se": 2
+    }
+  ],
+  "z_cut": 1.95996398454,
+  "w_grid": [
+    1e-08
+  ],
+  "tau_grid": [
+    0,
+    0.1,
+    0.3,
+    0.8
+  ],
+  "mu_bounds": [
+    -1.5,
+    1.5
+  ],
+  "likelihood_gap": 1.92,
+  "solver": {
+    "objective_tolerance": 1e-06,
+    "location_tolerance": 1e-05,
+    "max_evaluations": 200000
+  }
+}

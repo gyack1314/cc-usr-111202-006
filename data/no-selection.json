@@ -1,0 +1,49 @@
+{
+  "studies": [
+    {
+      "id": "s0",
+      "effect": 0.6,
+      "se": 0.18
+    },
+    {
+      "id": "s1",
+      "effect": 0.3,
+      "se": 0.15
+    },
+    {
+      "id": "s2",
+      "effect": 0.9,
+      "se": 0.35
+    },
+    {
+      "id": "s3",
+      "effect": -0.1,
+      "se": 0.25
+    },
+    {
+      "id": "s4",
+      "effect": 0.45,
+      "se": 0.2
+    }
+  ],
+  "z_cut": 1.95996398454,
+  "w_grid": [
+    1
+  ],
+  "tau_grid": [
+    0,
+    0.1,
+    0.3,
+    0.8
+  ],
+  "mu_bounds": [
+    -1.5,
+    1.5
+  ],
+  "likelihood_gap": 1.92,
+  "solver": {
+    "objective_tolerance": 1e-06,
+    "location_tolerance": 1e-05,
+    "max_evaluations": 200000
+  }
+}
